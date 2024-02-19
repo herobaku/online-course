@@ -1,0 +1,52 @@
+section.banner {
+  background: var(--orange);
+  margin: 20px 30px;
+  padding: 14px 8px;
+  border-radius: 8px;
+}
+
+section.banner .banner__center {
+  text-align: center;
+}
+
+section.banner .banner__center .banner__text {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.arrow__right {
+  margin-left: 23px;
+}
+
+@media screen and (max-width: 1440px) {
+  section.banner {
+    margin: 20px;
+    padding: 10px 5px;
+    border-radius: 6px;
+  }
+
+  section.banner .banner__center .banner__text {
+    font-size: 0.875rem;
+  }
+
+  .arrow__right {
+    margin-left: 26px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  section.banner {
+    margin: 40px 16px 14px;
+    padding: 10px 16px;
+    border-radius: 6px;
+  }
+
+  section.banner .banner__center .banner__text {
+    font-size: 0.875rem;
+  }
+
+  .arrow__right {
+    margin-left: 15px;
+  }
+}
