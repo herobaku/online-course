@@ -1,0 +1,81 @@
+.course__cards_group {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(39.34rem, 1fr));
+  gap: 1.88rem;
+}
+
+.course__cards_item {
+  background: #fff;
+  padding: 50px;
+  border-radius: 0.75rem;
+}
+
+.course__cards_top {
+  min-height: 23.75rem;
+}
+
+.course__cards_top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course__cards_bottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.course__cards_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.course__cards_date {
+  display: flex;
+  column-gap: 10px;
+}
+
+.course__cards_date button {
+  padding: 10px 16px;
+  border: 0.06rem solid rgb(241, 241, 243);
+  border-radius: 0.5rem;
+  color: #4c4c4d;
+  background: rgb(255, 255, 255);
+}
+
+.course__cards_author h4 {
+  color: #262626;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.course__cards_web {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.course__cards_web h2 {
+  color: rgb(38, 38, 38);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.course__cards_web p {
+  color: rgb(76, 76, 77);
+  font-size: 1.13rem;
+  font-weight: 400;
+}
+
+button.course__cards_get {
+  border: 0.06rem solid rgb(241, 241, 243);
+  border-radius: 0.5rem;
+  background: rgb(247, 247, 248);
+  padding: 18px 24px;
+  color: #262626;
+  font-size: 1.13rem;
+  font-weight: 500;
+}

@@ -1,0 +1,68 @@
+.benefits__group {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.benefits__group p {
+  flex: 0 0 80%;
+  max-width: 80%;
+  color: rgb(89, 89, 90);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+button.button__view {
+  padding: 18px 24px;
+  border: 1px solid rgb(241, 241, 243);
+  border-radius: 8px;
+  background: rgb(252, 252, 253);
+}
+
+.benefits__card_group {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(419px, 1fr));
+  gap: 20px;
+}
+
+.benefits__card {
+  padding: 50px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.card__number,
+.card__to {
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+
+.card__to img {
+  border: 1px solid rgb(241, 241, 243);
+  border-radius: 8px;
+  background: rgb(252, 252, 253);
+  padding: 28.5px;
+}
+
+.card__number h2 {
+  color: rgb(38, 38, 38);
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.card__desc h3 {
+  color: rgb(51, 51, 51);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.6%;
+}
+
+.card__desc p {
+  color: rgb(76, 76, 77);
+  font-size: 18px;
+  font-weight: 400;
+}
