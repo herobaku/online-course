@@ -11,7 +11,9 @@ const Brand = () => {
     <>
       <section className={styles.brand}>
         <div className={styles.container}>
-          <Swiper slidesPerView={7}>
+          <Swiper
+            slidesPerView={7}
+          >
             <SwiperSlide className={styles.brand__item}>
               <img src="../../public/brands/1.png" alt="brand" />
             </SwiperSlide>
