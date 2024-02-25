@@ -1,19 +1,19 @@
-.benefits__group {
+.sections__group {
+  padding-top: 14px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
-.benefits__group p {
-  flex: 0 0 80%;
-  max-width: 80%;
-  color: rgb(89, 89, 90);
-  font-size: 1.125rem;
+.sections__group p {
+  max-width: 83%;
+  color: #59595a;
+  font-size: 1rem;
   font-weight: 400;
 }
 
 button.button__view {
-  padding: 18px 24px;
+  padding: 14px 20px;
   border: 1px solid rgb(241, 241, 243);
   border-radius: 8px;
   background: rgb(252, 252, 253);

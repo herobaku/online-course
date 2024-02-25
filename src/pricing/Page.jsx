@@ -1,10 +1,10 @@
 import Accordion from "../home/accardion/Accardion";
-// import Pricing from "../home/accardion/Pricing";
+import PricingList from "../home/pricing/Pricing";
 
 const Pricing = () => {
   return (
     <>
-      {/* <Pricing /> */}
+      <PricingList />
       <Accordion />
     </>
   )

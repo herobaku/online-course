@@ -43,7 +43,7 @@ section.form {
   padding: 80px;
   background: #fff;
   position: relative;
-  max-width: ;
+  /* max-width: ; */
 }
 
 .form::before {

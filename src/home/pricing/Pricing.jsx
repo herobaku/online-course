@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faXmark } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Pricing.module.css";
 
-const Pricing = () => {
+const PricingList = () => {
   return (
     <>
       <section className={styles.pricing}>
@@ -170,4 +170,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default PricingList;

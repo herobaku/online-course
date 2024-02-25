@@ -1,18 +1,17 @@
-import styles from "./Benefits.module.css"
+import SectionTitle from "../sectionTitle/SectionTitle";
+import styles from "./Benefits.module.css";
+
+const obj = {
+  title:"Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget  habitasse in velit fringilla feugiat senectus in.",
+  button: "View All",
+};
 
 const Benefits = () => {
   return (
     <>
       <section className={styles.benefits}>
         <h2>Benefits</h2>
-        <div className={styles.benefits__group}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
-            elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum
-            eget habitasse in velit fringilla feugiat senectus in.
-          </p>
-          <button className={styles.button__view}>View All</button>
-        </div>
+        <SectionTitle title={obj.title} button={obj.button} />
         <div className={styles.benefits__card_group}>
           <div className={styles.benefits__card}>
             <div className={styles.card__number}>
